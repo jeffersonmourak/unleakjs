@@ -1,0 +1,27 @@
+{
+  "name": "unleakjs",
+  "version": "0.0.1",
+  "description": "JavaScript Library to fix memory leak issues.",
+  "main": "test.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel dev/ -d build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeffersonmourak/unleakjs.git"
+  },
+  "keywords": [
+    "unleakjs"
+  ],
+  "author": "jeffersonmourak",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jeffersonmourak/unleakjs/issues"
+  },
+  "homepage": "https://github.com/jeffersonmourak/unleakjs#readme",
+  "devDependencies": {
+    "babel-cli": "^6.10.1",
+    "babel-preset-es2015": "^6.9.0"
+  }
+}
